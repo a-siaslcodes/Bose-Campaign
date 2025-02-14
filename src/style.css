@@ -3,7 +3,8 @@ html {
   background: #191919;
 }
 :root {
-  --primary-text: rgba(255, 255, 255, 0.8);
+  /* --primary-text: rgba(255, 255, 255, 0.8); */
+  --primary-text: rgba(255, 255, 255, 0.7);
   --text-bold: #e7e7e7;
   --backgroud: #191919;
   --red: #df3d3a;
@@ -42,6 +43,11 @@ button {
   outline: none;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
 li {
   text-decoration: none;
   list-style: none;
@@ -274,4 +280,152 @@ li {
 .s-column {
   display: flex;
   flex-direction: column;
+}
+
+/* ----------Technology section ---------- */
+
+.technology-section {
+  display: flex;
+  padding-bottom: 168px;
+}
+
+.t-text-box {
+  margin-left: 190px;
+}
+
+.t-title {
+  font-weight: 600;
+  font-size: 54px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: var(--text-bold);
+  margin-bottom: 50px;
+}
+
+.t-header {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 1.25;
+  color: var(--text-bold);
+  margin-bottom: 20px;
+}
+
+.t-text {
+  font-size: 20px;
+  line-height: 1.45;
+  color: var(--primary-text);
+  width: 380px;
+}
+
+.img-box {
+  margin-left: 170px;
+}
+
+/* -----------guarantee section -------- */
+
+.guarantee-section {
+  display: flex;
+  padding-bottom: 170px;
+}
+
+.g-text-box {
+  width: 405px;
+  margin-left: 150px;
+}
+
+.g-title {
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: var(--text-bold);
+  margin-bottom: 50px;
+}
+.g-dot-icon {
+  margin-bottom: 24px;
+}
+
+.g-header {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.25;
+  color: var(--text-bold);
+  margin-bottom: 20px;
+}
+
+.g-text {
+  font-size: 20px;
+  line-height: 1.45;
+  color: var(--primary-text);
+}
+
+.g-text:not(:last-child) {
+  margin-bottom: 69px;
+}
+
+/* -----------History section---------------- */
+.history-section {
+  display: flex;
+  padding-bottom: 170px;
+}
+
+.history-left-box {
+  margin-left: 190px;
+}
+
+.history-title {
+  font-weight: 600;
+  font-size: 54px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: var(--text-bold);
+  width: 279px;
+  margin-bottom: 50px;
+}
+.history-text {
+  font-size: 20px;
+  line-height: 1.45;
+  color: var(--primary-text);
+  width: 400px;
+}
+
+.history-left-text {
+  font-size: 20px;
+  line-height: 1.45;
+  color: var(--primary-text);
+  width: 510px;
+  margin-bottom: 125px;
+}
+.history-left-img {
+  margin-top: 120px;
+}
+.history-right-img {
+  margin-bottom: 50px;
+}
+
+.history-text:not(:last-of-type) {
+  margin-bottom: 74px;
+}
+.history-right-box {
+  margin-left: 150px;
+}
+
+.history-quote {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 1.25;
+  color: var(--text-bold);
+  width: 382px;
+  margin-bottom: 32px;
+}
+.history-sub-text {
+  font-size: 16px;
+  line-height: 0.7;
+  color: var(--primary-text);
+}
+.history-quote-icon {
+  margin-bottom: 50px;
 }
